@@ -21,6 +21,9 @@ body {
 }
 
 .navbar-default {
+	line-height: 60px;
+	height: 80px;
+	padding-top: 15px;
 	background-color: #cec92f;
 	color: #000000;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -30,14 +33,15 @@ body {
 	font-family: "Courier New", Courier, monospace;
 	font-weight: 900;
 	color: #2d020e;
-	font-size: 30px;
+	font-size: 60px;
 }
 
 .navbar-default .navbar-nav > li > a {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #9e351b
+	
 }
 
 .center {
@@ -64,4 +68,12 @@ body {
 	font-size: 15px;
 	margin: 0px;
 	}
+}
+
+.jumbotron {
+
+	h1 {
+    color: #438909;
+	}
+
 }
