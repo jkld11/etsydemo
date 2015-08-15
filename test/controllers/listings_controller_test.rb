@@ -39,7 +39,7 @@ class ListingsControllerTest < ActionController::TestCase
     assert_redirected_to listing_path(assigns(:listing))
   end
 
-  test "should destroy listing" do
+  test "should delete listing" do
     assert_difference('Listing.count', -1) do
       delete :destroy, id: @listing
     end
